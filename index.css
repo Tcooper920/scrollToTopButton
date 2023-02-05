@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 3rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.back-to-top-btn {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    right: 1.5rem;
+    bottom: -10rem;
+    color: #040505;
+    background-color: white;
+    border-radius: 999rem;
+    transition: bottom .2s;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(224,224,224,1);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(224,224,224,1);
+        box-shadow: 0px 0px 11px 0px rgba(224,224,224,1);
+}
+
+.back-to-top-btn:hover {
+    cursor: pointer;
+    color: gray;
+    background-color: rgb(230, 230, 230);
+}
+
+.show-back-to-top-btn {
+    bottom: 1.5rem;
+}
+
