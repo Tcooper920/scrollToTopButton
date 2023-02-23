@@ -1,24 +1,9 @@
-* {
-    margin: 0;
-    border: none;
-    padding: 0;
-    background: none;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 40rem;
-    margin: 3rem;
-}
-
-p {
-    margin-bottom: 1.5rem;
-}
-
 .back-to-top-btn {
+    border: none;
     position: fixed;
     display: flex;
     justify-content: center;
